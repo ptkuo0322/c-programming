@@ -1,13 +1,15 @@
-Grading at Sun Sep 13 05:37:00 UTC 2020
+Grading at Sun Sep 13 05:39:13 UTC 2020
 Trying to compile your code and link with squares_test.o
 squares.c: In function ‘squares’:
-squares.c:57:19: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
-      if ((x<size1 && y ==0 || (y ==(size1-1)))||(y< size1 && (x==0 ||x=(size1-1))))
-                   ^
-squares.c:57:71: error: lvalue required as left operand of assignment
-      if ((x<size1 && y ==0 || (y ==(size1-1)))||(y< size1 && (x==0 ||x=(size1-1))))
-                                                                       ^
-cc1: all warnings being treated as errors
+squares.c:57:48: error: expected expression before ‘||’ token
+      if ((x<size1 && y ==0) || (y ==(size1-1)))||(y< size1 && (x==0 ||x=(size1-1))))
+                                                ^
+squares.c:57:84: error: expected statement before ‘)’ token
+      if ((x<size1 && y ==0) || (y ==(size1-1)))||(y< size1 && (x==0 ||x=(size1-1))))
+                                                                                    ^
+squares.c:61:6: error: ‘else’ without a previous ‘if’
+      else
+      ^
 Could not compile your code
 
 Overall Grade: FAILED
