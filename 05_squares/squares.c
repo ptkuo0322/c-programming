@@ -45,9 +45,9 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
   //compute the max of size1 and (y_offset + size2).  Call this h
   int h = max(size1, (y_offset + size2));
   //count from 0 to h. Call the number you count with y
-  for (int y=0; y<=h; y++)
+  for (int y=0; y<h; y++)
     {
-      for (int x=0; x<=w; x++)
+      for (int x=0; x<w; x++)
 	{
 	  if ((isInRange(x, x_offset, size2) && isAtBorder(y,y_offset,size2-1)) || (isInRange(y,y_offset,size2) && (isAtBorder(x,x_offset,size2-1))))
 	    {
