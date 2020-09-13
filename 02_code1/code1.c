@@ -18,7 +18,11 @@ int main(void) {
   printf("max(33, 0) is %d\n", max(33,0));
   printf("max(0x123456, 123456) is %d\n", max(0x123456,123456));
   //compute the max of 0x451215AF and 0x913591AF and print it out as a decimal number
+<<<<<<< HEAD
   printf("max(0x451215AF, 0x913591AF) is %d\n", max(0x451215AF,0X913591AF));
+=======
+  printf("max(0x451215AF, 0x913591AF) is %d\n", max(0x451215AF, 0X913591AF));
+>>>>>>> 1a712f172120b151aa9bed6263b0e18904918756
   return 0;
 }
 
