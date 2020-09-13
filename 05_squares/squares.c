@@ -23,7 +23,7 @@ int isInRange(int coord, int offset, int size) {
 int isAtBorder(int coord, int offset, int size) {
   // if coord is equal to offest or offset + size
   // return 1, else return 0
-  if ((coord == offset) && (coord == (offset + size)))
+  if ((coord == offset) ||  (coord == (offset + size)))
     {
       return 1;
     }
