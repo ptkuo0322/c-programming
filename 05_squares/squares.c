@@ -64,6 +64,7 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
 	  }
       printf("\n");
 	}
+}
       
     //count from 0 to w. Call the number you count with 
       //check if  EITHER
@@ -84,6 +85,3 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
       //else print a space
     //when you finish counting x from 0 to w, 
     //print a newline
-
-}
-
