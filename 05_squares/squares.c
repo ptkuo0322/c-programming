@@ -9,7 +9,7 @@
 int isInRange(int coord, int offset, int size) {
   // if coord is in range, return 1
   // else, return 0
-  if ((coord >= offset) || (coord < (offset + size)))
+  if ((coord >= offset) && (coord < (offset + size)))
     {
       return 1;
     }
@@ -23,7 +23,7 @@ int isInRange(int coord, int offset, int size) {
 int isAtBorder(int coord, int offset, int size) {
   // if coord is equal to offest or offset + size
   // return 1, else return 0
-  if ((coord == offset) ||  (coord == (offset + size)))
+  if ((coord == offset) || (coord == (offset + size)))
     {
       return 1;
     }
@@ -65,8 +65,7 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
 	}
       printf("\n");
       
-    //count from 0 to w. Call the number you count with x
-
+    //count from 0 to w. Call the number you count with 
       //check if  EITHER
       //    ((x is between x_offset  and x_offset +size2) AND 
       //     y is equal to either y_offset OR y_offset + size2 - 1 )
