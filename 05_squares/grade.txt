@@ -1,13 +1,437 @@
-Grading at Sun Sep 13 05:15:38 UTC 2020
+Grading at Sun Sep 13 05:22:11 UTC 2020
 Trying to compile your code and link with squares_test.o
-squares.c: In function ‘squares’:
-squares.c:52:110: error: implicit declaration of function ‘isAtBorrder’ [-Werror=implicit-function-declaration]
-    if ((isInRange(x, x_offset, size2) && isAtBorder(y,y_offset,size2-1)) || (isInRange(y,y_offset,size2) && (isAtBorrder(x,x_offset,size2-1))))
-                                                                                                              ^
-squares.c:57:70: error: lvalue required as left operand of assignment
-      if ((x<size1 && (y==0 || y==size1-1)) || ((y<size1) && (x==0 ||x=size1-1)))
-                                                                      ^
-cc1: all warnings being treated as errors
-Could not compile your code
+Testing ./squares 1 0 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 0 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 0 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 0 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 0 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 0 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 0 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 0 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 0 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 0 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 0 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 0 8 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 4 8 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 1 7 8 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 0 8 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 4 8 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 4 7 8 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 0 8 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 4 8 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 8 7 8 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 0 8 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 4 8 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 0 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 0 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 0 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 1 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 1 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 1 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 3 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 3 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 3 9
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 8 1
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 8 5
+Running your code indicated failure
+ - Incorrect
+Testing ./squares 11 7 8 9
+Running your code indicated failure
+ - Incorrect
+You need to fix the incorrect cases above and try again
 
 Overall Grade: FAILED
